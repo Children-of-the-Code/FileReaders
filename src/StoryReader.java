@@ -55,7 +55,7 @@ public class StoryReader {
 
 		}
 //		System.out.print();
-		System.out.println('\n' + "" + numCharacters);
+		System.out.println('\n' + "Number of characters: " + numCharacters);
 
 		//something that allows us to repeat that behavior an arbitrary amount of times
 
