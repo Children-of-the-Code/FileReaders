@@ -1,0 +1,4 @@
+using what we learned about reading from files,
+count the amount of words or sentences
+try converting to uppercase/lowercase
+mostly i just care about honest attempts
