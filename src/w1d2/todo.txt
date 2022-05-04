@@ -1,0 +1,30 @@
+we've been exploring more simple algorithms to make the word class more useful..
+algorithm is just a process to do something that always leads to the correct result with any arbitrary input
+eg, solving a maze by always touching the left wall is an algorithm
+and word.contains is also an algorithm
+
+some examples of useful things we may want to implement in a word class
+
+Word.equals(Word)
+returns true if the word is perfectly equal to another
+returns false otherwise
+interesting thing here... == does not work on objects, because it actually compares memory references in java..
+two word objects can be cat and == will return false! so we have to implement .equals ourselves
+
+Word.compareTo(Word)
+returns 1 if the word is after another word lexigraphically (dictionary order - remember that chars are numbers)
+and -1 if left lexigraphically, 0 if equal
+
+Word.numOccurrences(char)
+returns the number of occurrences of a particular character
+
+Word.delete(int)
+deletes a character from the array at a certain index
+interesting thing... you're going to need to shift all of the elements left one step - because having an empty
+space in a word doesn't make a ton of sense
+
+i would say.. hold off on project stuff until later
+because you're going to learn tools next week that will make those requirements much simpler
+right now i care about your ability to work with math/array logic because that is fundamental
+
+tomorrow: we'll be using strings rather than just our word class because we'll need to interface with the internet

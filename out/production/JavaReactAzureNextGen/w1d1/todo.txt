@@ -1,0 +1,9 @@
+using what we learned about reading from files,
+count the amount of words or sentences
+try converting to uppercase/lowercase
+try doing both of these things within a array of chars and a for loop rather than within the while
+mostly i just care about honest attempts
+
+also, look into katacoda.com for practice with unix/git
+start looking into revpro notes (from curriculum page)
+recording should automatically be uploaded to curriculum page
